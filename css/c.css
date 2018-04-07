@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 body{
     background: #9874db;
     color:rgb(85, 82, 82);
-    font-family: 'Hi Melody',sans-serif;
+    font-family: 'Anton',sans-serif;
     font-weight: 300;
 }
 body > header{
