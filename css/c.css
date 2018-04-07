@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Hi+Melody');
+
 body{
-    background: #000000;
-    color:#050;
+    background: #9874db;
+    color:rgb(85, 82, 82);
     font-family: 'Hi Melody',sans-serif;
     font-weight: 300;
+}
+body > header{
+    border: 1px solid #000000;
+    border-top: none;
+    margin: 0px;
 }
