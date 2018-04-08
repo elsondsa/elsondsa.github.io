@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
 
 body{
     background: #9874db;
     color:rgb(85, 82, 82);
-    font-family: 'Anton',sans-serif;
+    font-family: 'Gugi',cursive;
     font-weight: 300;
 }
 body > header{
