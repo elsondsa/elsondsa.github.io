@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Gugi');
 
 body{
-    background: #9874db;
+    background: #bab1cc;
     color:rgb(85, 82, 82);
     font-family: 'Gugi',cursive;
     font-weight: 300;
 }
 body > header{
     border: 1px solid #000000;
-    border-top: none;
     margin: 0px;
 }
 
 #form-section
 {
-    background: #2bd865;
+    background: #e8e5ec;
     border: 2px solid #191a1541;
     margin: 5px 5px 5px 5px;
+}
+
+#marks
+{
+    background: #b85e4e;
+    border:3px solid #000000;
 }
