@@ -6,7 +6,7 @@ body{
     color:rgb(85, 82, 82);
     font-family: 'Gugi',cursive;
     font-weight: 300;
-    margin-top: 300px;
+    margin-top: 50px;
 }
 body > header{
     border: 1px solid #000000;
@@ -19,6 +19,13 @@ body > header{
 #form{
     margin:0px 0px 0px 400px;
 }
+header::before{
+    content:"";
+    display:block;
+    width:5px;
+    height:80px;
+    background:black;
+}
 #top-stories{
     width:1000px;
     margin:100px;
@@ -29,7 +36,14 @@ article{
     border:1px solid #000000;
     padding:10px;
     margin:10px;
-    box-shadow: 5px 5px 20px 5px;
+    box-shadow: 2px 2px 2px 2px;
+    background:rgb(243, 248, 212);
+    transition: box-shadow 500ms,background 1s;
+    transition-delay: 1s;
+}
+article:hover {
+    box-shadow:5px 5px 20px 5px;
+    background: #aaa;
 }
 article img{
     max-width:50%;
@@ -83,3 +97,13 @@ article:active{
     background: rgb(126, 221, 18);
     opacity: .41;
 }
+.mytext{
+    height:600px;
+    max-height: 204px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border:2px solid black;
+
+}
+/*100% is used in case of width and heights to fit the 100% of the specified height,but if viewport is 100vw or 100vh it means
+that 100% of the viewport i.e the screen is used.*/
