@@ -1,0 +1,1 @@
+alert("Your phone is hacked,thank you");
